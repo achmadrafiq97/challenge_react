@@ -11,9 +11,12 @@
     src: url("../font/SFCompactDisplay-Semibold.ttf") format("truetype");
     } */
     
+.margin-atas {
+    padding-top: 100px;
+}
 
 body {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     position: relative;
     overflow-x: hidden;
 }
@@ -24,7 +27,7 @@ img{
 /* header */
 
 header {
-    padding: 10px 0;
+    padding: 16px 0;
     border-bottom: 1px solid #ececec;
     background-color: #ffffff;
     position: fixed;
@@ -35,13 +38,9 @@ header {
     border-bottom: 2px solid rgb(198, 200, 204);
 }
 
-.header-margin-list {
-    margin-right: 5px;
-}
-
 .header-logo img{
-    width:73.52px ;
-    height:46.17px ;
+    width:133.52px ;
+    height:66.17px ;
 }
 
 .header-nav {
@@ -77,7 +76,7 @@ header {
 /* body  home*/
 
 .background_home{
-    /* background-image: url('../assets-final-project-fe/bg-img.png') ; */
+    background-image: url('./assets-final-project-fe/bg-img.png') ;
     background-size: cover;
     padding: 100px;
     display: flex;
@@ -354,7 +353,7 @@ br +h2 {
 /* contact */
 
 #img-contact {
-    /* background-image: url("../assets-final-project-fe/charles-rRWiVQzLm7k-unsplash.jpg"); */
+    background-image: url("./assets-final-project-fe/charles-rRWiVQzLm7k-unsplash.jpg");
     background-size: cover;
     margin-right: 100px;
 }
@@ -802,167 +801,4 @@ h1 {
     .img-contact-alterra {
         display: none;
     }
-}
-
-.dropdown {
-    float: left;
-}
-  
-.dropdown .dropbtn {
-font-size: 16px;  
-border: none;
-outline: none;
-color: grey;
-padding: 14px 16px;
-background-color: inherit;
-font-family: inherit;
-}
-
-.navbar a {
-float: left;
-font-size: 16px;
-color: grey;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-.dropdown-content a {
-float: none;
-color: grey;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
-}
-
-.dropdown-content a:hover {
-background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.search-container {
-    float: right;
-  }
-  
-
-.search-container button {
-    float: right;
-    padding: 2.5px 10px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-
-.font-kabarkabar {
-    font-size: 20px;
-}
-
-.body-berita {
-    padding-top: 130px;
-}
-
-.daftar-berita {
-    margin-left: 300px;
-}
-
-.daftar-berita > div  {
-    display: inline-block;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-left: 15px;
-    border:1px solid #d1d4eb;
-    width:300px;
-    height:80px;
-    color : #17c29d;
-}
-
-.berita-terkini {
-    margin-left: 300px;
-    display: inline-block;
-    font-size: 15px;
-    padding: 15px;
-    border:1px solid #d1d4eb;
-    width:300px;
-    height:50px;
-    color : #2f946f;
-}
-
-.margin-berita-terkini {
-    margin-right: 70px;
-}
-
-.daftar-berita div div p {
-    display: inline;
-    font-size: 15px;
-    padding: 5px 10px;
-    border:1px solid red;
-    border-radius : 10px;
-    background-color: red;
-    color: white;
-}
-
-.margin-nomor {
-    margin-bottom: 10px;
-    margin-top: 8px;
-}
-
-.image-berita {
-    width:550px;
-    height:420px;
-    margin-left:220px;
-}
-
-.margin-headline-utama {
-    margin-left:220px;
-}
-
-.deskripsi-berita {
-    margin-top:10px;
-    font-size: 15px;
-}
-
-.last-updated {
-    color: gray;
-    margin-top:12px;
-    font-size: 13px;
-}
-
-.icon {
-    margin-right: 100px;
-    margin-left:55px;
-}
-
-.kotak-berita {
-    display: inline-block;
-    font-size: 15px;
-    padding: 15px;
-    border:1px solid #d1d4eb;
-    width:550px;
-    height:170px;
-    color : black;
-}
-
-.kotak-icon {
-    display: inline-block;
-    font-size: 15px;
-    padding: 15px;
-    border:1px solid #d1d4eb;
-    width:550px;
-    height:50px;
-    color : black;
-    background-color:#dfebe0;
 }
