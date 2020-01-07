@@ -2,11 +2,12 @@ import React from 'react';
 import logo from '../logo.svg';
 
 class Header extends React.Component {
-    render() {
+    render() { 
         return  (
             <header>
                 <div>
                     <div className="row align-items-center">
+                        <p>{this.props.test}</p>
                         <div className="col-md-2">
                             <a className="header-logo">
                                 <img src={logo} alt=""/>
