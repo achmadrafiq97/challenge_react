@@ -33,9 +33,9 @@ class ContainerBerita extends React.Component {
                 <div>
                     <div className="kotak-berita">
                         <div>
-                            <h5><strong>{item.title}</strong></h5>
+                            <a href={item.url} ><h5><strong>{item.title}</strong></h5></a>
                             <p className="deskripsi-berita">{item.description}</p>
-                            <p className="last-updated">{"Last Updated"+item.publishedAt}</p>
+                            <p className="last-updated">{"Last Updated "+item.publishedAt}</p>
                         </div>
                     </div>
                     <div className="kotak-icon">

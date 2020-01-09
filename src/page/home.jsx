@@ -22,7 +22,7 @@ class Home extends React.Component {
             self.setState({ listNews: response.data.articles, isLoading: false});
         })
         .catch(function(error) {
-            self.setState({ isLoading: false});
+            self.setState({ isLoading: false });
         })
 
         this.ArticleNews()
